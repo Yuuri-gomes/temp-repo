@@ -1,0 +1,4 @@
+ssh-keygen -t rsa -f "c/Users/yurig/.ssh/github" -C 'meu@email'
+eval "$(ssh-agent -s)"
+
+git remote add origin sshKey
